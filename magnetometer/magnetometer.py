@@ -1,4 +1,4 @@
-import time, csv, I2Clib
+import I2Clib
 
 class Magnetometer(I2Clib.sensor):
   def __init__(self):
